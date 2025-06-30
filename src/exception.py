@@ -56,11 +56,4 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-if __name__ == '__main__':
-    print("✅ Inside main block")
-    try:
-        print("🚧 Trying 1 / 0")
-        a = 1 / 0
-    except Exception as e:
-        print("❌ Caught an exception")
-        raise CustomException(e, sys)
+
