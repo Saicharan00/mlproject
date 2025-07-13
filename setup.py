@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from  import pyprojecttoml
+
 from typing import List
 
 HYPEN_E_DOT = '-e .'

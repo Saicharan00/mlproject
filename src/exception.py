@@ -32,10 +32,10 @@
 #         logging.info("Divide by zero error")
 #         raise CustomException(e, sys)
 
-print("🔥 This is the exception.py script 🔥")
-
 import sys
-import logging
+from src.logger import logging
+
+print("🔥 This is the exception.py script 🔥")
 
 def error_message_detail(error, error_detail: sys):
     try:
